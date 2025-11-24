@@ -21,3 +21,6 @@ apt_get curl
 
 # Install Atlas CLI
 curl -sSf https://starship.rs/install.sh | sh -s -- -y --version="${VERSION}"
+
+# Copy the configuration
+cp ./scripts/profile.sh /etc/profile.d/profile.sh
